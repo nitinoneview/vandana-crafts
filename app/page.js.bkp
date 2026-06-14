@@ -96,6 +96,11 @@ export default function Home() {
         )}
       </section>
 
+      <section style={{ backgroundColor: '#25d366', padding: '70px 20px', textAlign: 'center' }}>
+        <h2 style={{ fontSize: '32px', color: 'white', marginBottom: '15px', fontWeight: 'normal' }}>Want a Custom Clock?</h2>
+        <p style={{ color: '#d4f5e2', fontSize: '16px', marginBottom: '35px', fontFamily: 'sans-serif' }}>Anniversary • Wedding • Corporate Gifts — We make it personal</p>
+        <a href={"https://wa.me/919219265044?text=" + encodeURIComponent("Hello! I want a custom clock order.")} target="_blank" style={{ backgroundColor: 'white', color: '#25d366', padding: '16px 45px', borderRadius: '50px', textDecoration: 'none', fontSize: '18px', fontWeight: 'bold', fontFamily: 'sans-serif' }}>Chat on WhatsApp</a>
+      </section>
 
       <footer style={{ backgroundColor: '#3d2b1f', color: '#d4b896', padding: '40px 20px', textAlign: 'center' }}>
         <p style={{ fontSize: '24px', color: '#c68642', marginBottom: '10px' }}>Vandana Crafts</p>
