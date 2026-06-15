@@ -10,7 +10,7 @@ export default function Home() {
 
   useEffect(() => {
     async function fetch() {
-      const { data: prods } = await supabase.from('products').select('*').eq('is_available', true)
+      const { data: prods } = await supabase.from('products').select('*').eq('is_available', true).order('display_order')
       const { data: imgs } = await supabase.from('product_images').select('*').eq('is_primary', true)
       if (prods && imgs) {
         const merged = prods.map(p => ({ ...p, image: imgs.find(i => i.product_id === p.id)?.image_url || '' }))

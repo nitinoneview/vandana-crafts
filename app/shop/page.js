@@ -11,7 +11,7 @@ export default function Shop() {
 
   useEffect(() => {
     async function fetchData() {
-      let query = supabase.from('products').select('*').eq('is_available', true)
+      let query = supabase.from('products').select('*').eq('is_available', true).order('display_order')
       if (filter !== 'all') query = query.eq('category', filter)
       const { data: prods } = await query
       const { data: imgs } = await supabase.from('product_images').select('*').eq('is_primary', true)
