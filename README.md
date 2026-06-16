@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Vandana Crafts
 
-## Getting Started
+E-commerce website for a handmade Sagwan/Teak wood clock brand — built with Next.js, Tailwind CSS, and Supabase.
 
-First, run the development server:
+## 🌐 Live Site
+[vandanacrafts.com](https://vandanacrafts.com)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📖 About
+Vandana Crafts is a production-ready e-commerce website built for a handmade wooden clock artisan. The site showcases wall clocks, table clocks, and custom-order pieces crafted from premium Sagwan (Teak) wood.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ordering is done via WhatsApp — no payment gateway needed.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## ✨ Features
+- Mobile-first single-scroll homepage with real product images
+- Shop page with category filtering (wall clocks, table clocks)
+- Product detail page with thumbnail gallery and quantity selector
+- Custom order form with WhatsApp integration
+- About page with happy customers photo section
+- Floating WhatsApp button across all pages
+- Manual product display ordering via database
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
+| Layer | Technology |
+|-------|-----------|
+| Frontend | Next.js (App Router), Tailwind CSS v4 |
+| Database | Supabase (PostgreSQL) |
+| Storage | Supabase Storage |
+| Deployment | Vercel |
+| Ordering | WhatsApp API |
 
-## Learn More
+## 📁 Project Structure
+vandana-crafts/
 
-To learn more about Next.js, take a look at the following resources:
+├── app/
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+│   ├── page.js          # Homepage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+│   ├── shop/            # Shop page
 
-## Deploy on Vercel
+│   ├── product/         # Product detail page
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+│   ├── custom-order/    # Custom order form
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+│   └── about/           # About page
+
+├── components/          # Reusable components
+
+└── public/              # Static assets
+
+## 📞 Contact
+- Instagram: [@vandanacrafts](https://instagram.com/vandanacrafts)
+- WhatsApp: +91 92192 65044
+- Email: Craftsvandana@gmail.com
