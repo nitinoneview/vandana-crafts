@@ -2,8 +2,8 @@
 
 export default function FloatingWhatsApp() {
   return (
-    <a href="https://wa.me/919219265044?text=Hello! I am interested in Vandana Crafts wooden clocks." target="_blank" className="fixed bottom-6 right-6 z-50 bg-[#25d366] w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform" aria-label="Chat on WhatsApp">
-      <svg viewBox="0 0 32 32" className="w-8 h-8 fill-white"><path d="M16.04 2c-7.73 0-14 6.27-14 14 0 2.49.66 4.83 1.8 6.86L2 30l7.31-1.92A13.93 13.93 0 0 0 16.04 30c7.73 0 14-6.27 14-14s-6.27-14-14-14zm0 25.5c-2.2 0-4.27-.6-6.04-1.65l-.43-.26-4.34 1.14 1.16-4.23-.28-.44a11.4 11.4 0 0 1-1.78-6.06c0-6.34 5.16-11.5 11.5-11.5 6.34 0 11.5 5.16 11.5 11.5s-5.16 11.5-11.5 11.5zm6.32-8.62c-.35-.17-2.06-1.02-2.38-1.13-.32-.12-.55-.17-.78.17-.23.34-.89 1.13-1.09 1.36-.2.23-.4.26-.74.09-1.99-1-3.3-2.78-3.41-2.95-.12-.17 0-.27.09-.36.17-.17.35-.42.52-.63.17-.21.23-.36.34-.6.12-.24.06-.45-.03-.63-.09-.17-.39-.93-.7-1.81-.31-.88-.62-.76-.85-.77-.21-.01-.45-.01-.69-.01-.24 0-.62.09-.95.45-.33.36-1.27 1.24-1.27 3.02 0 1.78 1.3 3.5 1.48 3.74.17.24 2.4 3.64 5.83 4.95 2.85 1.09 3.43.87 4.05.81.61-.06 2.06-.84 2.35-1.66.29-.81.29-1.5.2-1.66-.08-.16-.32-.26-.66-.43z"/></svg>
+    <a href="https://wa.me/919219265044?text=Hello! I am interested in Vandana Crafts wooden clocks." target="_blank" style={{ position: 'fixed', bottom: '24px', right: '24px', zIndex: 1000, backgroundColor: '#25d366', width: '60px', height: '60px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 20px rgba(37,211,102,0.5)', textDecoration: 'none' }}>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style={{ width: '36px', height: '36px' }} />
     </a>
   )
 }

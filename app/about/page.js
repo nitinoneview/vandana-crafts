@@ -10,6 +10,15 @@ export default function About() {
     { icon: '✏️', title: 'Custom Orders', desc: 'Anniversary, wedding, corporate gifts — personalized for you.' },
   ]
 
+  const customers = [
+    'https://qvibrfhnpcksbzdokxik.supabase.co/storage/v1/object/public/product-images/customer/C1.jpeg',
+    'https://qvibrfhnpcksbzdokxik.supabase.co/storage/v1/object/public/product-images/customer/C2.jpeg',
+    'https://qvibrfhnpcksbzdokxik.supabase.co/storage/v1/object/public/product-images/customer/C3.jpeg',
+    'https://qvibrfhnpcksbzdokxik.supabase.co/storage/v1/object/public/product-images/customer/C4.jpeg',
+    'https://qvibrfhnpcksbzdokxik.supabase.co/storage/v1/object/public/product-images/customer/C5.jpeg',
+    'https://qvibrfhnpcksbzdokxik.supabase.co/storage/v1/object/public/product-images/customer/C6.jpeg',
+  ]
+
   return (
     <main style={{ fontFamily: 'sans-serif', backgroundColor: '#fdf6ec' }}>
       <Navbar />
@@ -33,6 +42,18 @@ export default function About() {
               <div style={{ fontSize: '40px', marginBottom: '15px' }}>{item.icon}</div>
               <h3 style={{ color: '#3d2b1f', fontSize: '18px', marginBottom: '10px', fontFamily: 'Georgia, serif' }}>{item.title}</h3>
               <p style={{ color: '#6b4226', fontSize: '14px', lineHeight: 1.7 }}>{item.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section style={{ backgroundColor: '#fdf6ec', padding: '60px 20px' }}>
+        <h2 style={{ textAlign: 'center', fontSize: '32px', color: '#3d2b1f', marginBottom: '10px', fontFamily: 'Georgia, serif' }}>Happy Customers</h2>
+        <p style={{ textAlign: 'center', color: '#6b4226', fontSize: '16px', marginBottom: '40px' }}>Real moments, real smiles — our family is growing!</p>
+        <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', justifyContent: 'center', maxWidth: '1100px', margin: '0 auto' }}>
+          {customers.map((url, i) => (
+            <div key={i} style={{ width: '320px', height: '240px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 4px 20px rgba(61,43,31,0.15)' }}>
+              <img src={url} alt={'Happy Customer ' + (i + 1)} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             </div>
           ))}
         </div>
