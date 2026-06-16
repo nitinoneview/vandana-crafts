@@ -12,10 +12,10 @@ export default function About() {
 
   const customers = [
     'https://qvibrfhnpcksbzdokxik.supabase.co/storage/v1/object/public/product-images/customer/C1.jpeg',
-    'https://qvibrfhnpcksbzdokxik.supabase.co/storage/v1/object/public/product-images/customer/C2.jpeg',
-    'https://qvibrfhnpcksbzdokxik.supabase.co/storage/v1/object/public/product-images/customer/C3.jpeg',
-    'https://qvibrfhnpcksbzdokxik.supabase.co/storage/v1/object/public/product-images/customer/C4.jpeg',
-    'https://qvibrfhnpcksbzdokxik.supabase.co/storage/v1/object/public/product-images/customer/C5.jpeg',
+    'https://qvibrfhnpcksbzdokxik.supabase.co/storage/v1/object/public/product-images/customer/C2.1.jpeg',
+    'https://qvibrfhnpcksbzdokxik.supabase.co/storage/v1/object/public/product-images/customer/C3%20(1).jpeg',
+    'https://qvibrfhnpcksbzdokxik.supabase.co/storage/v1/object/public/product-images/customer/C4%20(1).jpeg',
+    'https://qvibrfhnpcksbzdokxik.supabase.co/storage/v1/object/public/product-images/customer/C5%20(1).jpeg',
     'https://qvibrfhnpcksbzdokxik.supabase.co/storage/v1/object/public/product-images/customer/C6.jpeg',
   ]
 
